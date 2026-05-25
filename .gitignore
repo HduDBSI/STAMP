@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Env
+venv/
+.venv/
+env/
+
+# dataset
+datasets/

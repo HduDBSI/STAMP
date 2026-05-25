@@ -14,7 +14,7 @@ Source code for our paper **"Integrating Structural and Temporal Information of 
 │   ├── eventlog.py             # XES/JSON log loading and preprocessing
 │   └── b3.py                   # B3 metric computation
 ├── *.ipynb                     # Research/experiment notebooks (traceEmbedding/clustering/test_mppn, etc.)
-├── datasets/                   # Datasets (BPIC15GroundTruth.xes, BPIC_Challenge_2019.xes)
+├── datasets/                   # Datasets (Due to size and licensing, not included in repo, but instructions for downloading are provided)
 └── README.md                   # Basic installation instructions
 ```
 
@@ -56,21 +56,20 @@ This project uses two public event log datasets:
 
 ### BPIC 2015 (Municipal Building Permit Process)
 
-* **File**: `datasets/BPIC15GroundTruth.xes`
 * **Description**: Event logs from building permit processes across five Dutch municipalities, containing 5,649 traces
 * **Clustering labels**: Case-level attribute `cluster:label` (5 categories)
 * **Event attributes**:
   * `concept:name` (activity)
   * `org:resource` (resource)
   * `monitoringResource`
+* **Note**: Download from https://data.4tu.nl/collections/BPI\_Challenge\_2015/5065424
 ---
 
 ### BPIC 2019 (Procure-to-Pay Process)
 
-* **File**:
-  * `datasets/BPIC2019_sampled.xes`
 * **Description**: Procure-to-pay (P2P) process of a multinational company, with cases distinguished by attributes such as `Item Type`, `Document Type`, and `Item Category`
 * **Clustering labels**: `Item Category`
 * **Event attributes**:
   * `concept:name`
   * `org:resource`
+* **Note**: Download from https://data.4tu.nl/articles/dataset/BPI\_Challenge\_2019/12715853
