@@ -22,7 +22,7 @@ Source code for our paper **"Integrating Structural and Temporal Information of 
 
 ## Usage
 
-### 1 Environment Setup and Installation
+### 1. Environment Setup and Installation
 
 It is recommended to use Python 3.7
 
@@ -36,7 +36,7 @@ Notes :Dependency versions are defined in the `requirements.txt`.
 
 ---
 
-### 2 Running Jupyter Notebooks
+### 2. Running Jupyter Notebooks
 
 Recommended notebooks:
 
